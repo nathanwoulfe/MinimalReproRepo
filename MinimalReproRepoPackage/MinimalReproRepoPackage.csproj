@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+        <ContentTargetFolders>.</ContentTargetFolders>
+        <Product>MinimalReproRepoPackage</Product>
+        <PackageId>MinimalReproRepoPackage</PackageId>
+        <Title>MinimalReproRepoPackage</Title>
+        <Description>...</Description>
+        <Product>...</Product>
+        <PackageTags>umbraco plugin package</PackageTags>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Umbraco.Cms.Web.Website" Version="9.0.0-beta002" />
+        <PackageReference Include="Umbraco.Cms.Web.BackOffice" Version="9.0.0-beta002" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <Content Include="App_Plugins\MinimalReproRepoPackage\**\*.*">
+            <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+            <CopyToPublishDirectory>Always</CopyToPublishDirectory>
+        </Content>
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="App_Plugins\MinimalReproRepoPackage\app.js" />
+      <None Remove="App_Plugins\MinimalReproRepoPackage\index.html" />
+      <None Remove="App_Plugins\MinimalReproRepoPackage\module.js" />
+    </ItemGroup>
+</Project>

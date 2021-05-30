@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinimalReproRepo", "MinimalReproRepo\MinimalReproRepo.csproj", "{020B02E3-DC4D-4D80-878D-E055D90AD073}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinimalReproRepoPackage", "MinimalReproRepoPackage\MinimalReproRepoPackage.csproj", "{D3DAD0EB-6BF2-480A-B7BB-8C941787AEB2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{020B02E3-DC4D-4D80-878D-E055D90AD073}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{020B02E3-DC4D-4D80-878D-E055D90AD073}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{020B02E3-DC4D-4D80-878D-E055D90AD073}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{020B02E3-DC4D-4D80-878D-E055D90AD073}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3DAD0EB-6BF2-480A-B7BB-8C941787AEB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3DAD0EB-6BF2-480A-B7BB-8C941787AEB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3DAD0EB-6BF2-480A-B7BB-8C941787AEB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3DAD0EB-6BF2-480A-B7BB-8C941787AEB2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {611A35E7-7FEF-45B8-BF39-38B26B44F495}
+	EndGlobalSection
+EndGlobal

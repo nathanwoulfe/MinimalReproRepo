@@ -1,0 +1,13 @@
+{
+  "javascript": [
+    "~/App_Plugins/MinimalReproRepoPackage/backoffice/app.js"
+  ],
+  "dashboards": [
+    {
+      "alias": "Demo",
+      "view": "~/app_plugins/minimalreprorepopackage/backoffice/index.html",
+      "sections": [ "content" ],
+      "weight": 0
+    }
+  ]
+}
