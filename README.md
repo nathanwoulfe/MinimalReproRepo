@@ -22,3 +22,8 @@ don't seem to do anything.
 
 Hopefully this is just a config issue, not an indication of the new normal. Given the approach for the new UI, which also uses JS Modules I'd expect developers could hit similar issues when building their own
 components for inclusion in packages.
+
+## Run it
+There's a single Gulp entry point: `gulp dev`
+
+This will clean the destination folder, copy the package into the test site and establish file watchers on the javascript and html files in the package source.
